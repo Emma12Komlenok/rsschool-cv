@@ -16,4 +16,15 @@
 
 _I am responsible as the head editor for a student’s newspaper “Alma Mater”.
 Volunteer of the 2nd European Games_
+ ## Special skills:
+
+
+### Languages: 
+* Russian – mother tongue
+* English – C1
+* French – A2
+
+## Hobbies:		
+Photography, reading, visiting theatres and museums.
+
 
