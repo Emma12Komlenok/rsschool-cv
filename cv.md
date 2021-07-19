@@ -17,9 +17,14 @@
 _I am responsible as the head editor for a student’s newspaper “Alma Mater”.
 Volunteer of the 2nd European Games_
  ## Special skills:
+**Programming Skills:**
+* Git
+* VS Code
+* Mardown
+* Basic HTML
+* Basic CSS 
 
-
-### Languages: 
+**Languages:** 
 * Russian – mother tongue
 * English – C1
 * French – A2
