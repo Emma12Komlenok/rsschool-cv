@@ -1,0 +1,15 @@
+body { 
+    @font-face 
+        font-family: 'Cinzel', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lDQ.woff2) format('woff2'); 
+}
+ .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch 
+  }
+  
