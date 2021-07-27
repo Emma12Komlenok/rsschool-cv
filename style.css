@@ -10,16 +10,14 @@ main{
 }
 
 body {
-  font-family: 'Cinzel', serif;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-weight: 400;
   font-size: 22px;
   src: url(https://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lDQ.woff2) format('woff2');
 }
 
 div {
-  margin: 0 auto ;
+  margin: 0 auto;
   max-width: 50%;
   display: flex;
   flex-direction: column;
@@ -27,13 +25,13 @@ div {
 }
 
 img {
+  align-self: center;
   width: 30%;
   border: 3px ridge #3db186;
-  margin-left: 35%;
   border-radius: 100%;
 }
 
-.bold {
+h2 {
   font-family: Tahoma, sans-serif;
   font-size: 24px;
   font-weight: bold;
@@ -41,25 +39,23 @@ img {
   -webkit-text-fill-color: #d2ebd2;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #0b5a2f;
-  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 h1 {
-  text-align: center;
+  align-self: center;
 }
 
-.hr-shelf {
+
+hr {
   margin: -15px 0 15px;
-  padding: 0;
   height: 50px;
   border: none;
   border-bottom: 1px solid #1f1209;
   box-shadow: 0 20px 20px -20px rgb(30, 133, 69);
-  width: 100%;
 }
 
-.under {
+.subparagraph {
   font-weight: bold;
   font-style: italic;
   margin: -10px;
