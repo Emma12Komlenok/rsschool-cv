@@ -5,64 +5,53 @@ html, body {
   padding: 0;
 }
 
-main{
-  background-color : rgb(226, 236, 240);
-}
-
 body {
-  font-family: 'Cinzel', 'Times New Roman', serif;
-  font-weight: 400;
-  font-size: 22px;
-  src: url(https://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lDQ.woff2) format('woff2');
+  font-family: Cinzel, 'Times New Roman', serif;
+  font-weight: 500;
 }
 
-div {
+header, footer {
   margin: 0 auto;
   max-width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: center;
 }
 
-img {
-  align-self: center;
-  width: 30%;
+.cat {
+  margin: 25px;
+  width: 120px;
   border: 3px ridge #3db186;
   border-radius: 100%;
 }
 
-h2 {
-  font-family: Tahoma, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  -webkit-text-fill-color: #d2ebd2;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: #0b5a2f;
-  letter-spacing: 2px;
-}
-
 h1 {
-  align-self: center;
+  margin: 0;
+  text-align: center;
 }
 
+main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
 
-hr {
-  margin: -15px 0 15px;
-  height: 50px;
-  border: none;
+section {
+  padding: 25px;
   border-bottom: 1px solid #1f1209;
   box-shadow: 0 20px 20px -20px rgb(30, 133, 69);
 }
 
-.subparagraph {
-  font-weight: bold;
-  font-style: italic;
-  margin: -10px;
+ul {
+  padding-left: 30px;
+  max-width: 500px;
+  border-left: 3px solid rgb(100, 165, 125);
+  list-style-type:square;
 }
 
-ul {
-  max-width: 500px;
-  border-left: 3px solid rgb(30, 85, 51);
-  list-style-type:"\2727";
+footer {
+  padding: 20px;
+}
+
+.rs {
+  width: 120px;
 }
